@@ -53,3 +53,8 @@
 (global-set-key (kbd "S-<right>")    'tabbar-forward)
 
 (define-key evil-insert-state-map (kbd "M-SPC") 'company-complete)
+
+(evil-ex-define-cmd "q" 'kill-this-buffer)
+(evil-ex-define-cmd "quit" 'evil-quit)
+
+
